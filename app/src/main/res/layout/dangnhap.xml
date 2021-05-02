@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".DangNhap_Activity"
+    >
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginRight="8dp"
+        android:background="#FBF9F9"
+        android:drawableLeft="@drawable/ic_baseline_account_box_24"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="Tài khoản"
+        android:inputType="textPersonName"
+        android:padding="18dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="8dp"
+        android:background="#FBF9F9"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="121dp"
+        android:backgroundTint="@color/red"
+        android:text="Đăng nhập"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="@color/red"
+        android:text="Đăng Ký"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>
